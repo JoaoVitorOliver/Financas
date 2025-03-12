@@ -1,8 +1,6 @@
 from flask import Flask, request, render_template
 import openpyxl
 import os
-from time import sleep
-
 
 app = Flask(__name__)
 

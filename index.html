@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Gastos</title>
 </head>
 <body>
-    <h1>Registro de Gastos</h1>
-    <form method="POST">
-        <label for="quanto_gastou">Quanto Gastou?</label>
+    <form action="/" method="POST">
+        <label for="quanto_gastou">Quanto Gastou:</label>
         <input type="text" id="quanto_gastou" name="quanto_gastou" required><br>
         
-        <label for="o_que_comprou">O Que Comprou?</label>
+        <label for="o_que_comprou">O Que Comprou:</label>
         <input type="text" id="o_que_comprou" name="o_que_comprou" required><br>
         
-        <label for="data">Qual Data?</label>
+        <label for="data">Data:</label>
         <input type="date" id="data" name="data" required><br>
         
-        <button type="submit">Salvar</button>
+        <input type="submit" value="Salvar">
     </form>
 </body>
 </html>
